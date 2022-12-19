@@ -1,0 +1,23 @@
+.pgContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+}
+
+.pgContainer .pgItem:last-child {
+  margin-right: 0;
+}
+
+.pgItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 35px;
+  padding: 0 5px;
+  background-color: #292972;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

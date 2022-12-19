@@ -4,11 +4,13 @@
 frontend server code
 
 ## Getting Started
-
-### Installing
+### Setting up Server
 - Go to the link below to set up the crawl server and backend server step by step.
   - 1. <https://github.com/Generation-Foundation/Explorer-Crawling-test>
   - 2. <https://github.com/Generation-Foundation/Explorer-Backend-test>
+
+
+### Installing
 
 - Git clone this repo
 ```bash

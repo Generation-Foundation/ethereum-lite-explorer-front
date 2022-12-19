@@ -1,0 +1,65 @@
+.chartContainer {
+  width: 80%;
+  border-radius: 15px;
+  background-color: #08082d;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+@media (max-width: 1480px) {
+  .chartContainer {
+    width: 95%;
+  }
+}
+
+.title {
+  font-size: 18px;
+  margin: 10px 0px 30px 30px;
+}
+
+.title h1 {
+  font-size: 18px;
+}
+
+.chart {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  border-top: 2px solid #212121;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.chartSelect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chartBtnContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.chartBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+  width: fit-content;
+  background-color: #212121;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.chartBtn:hover {
+  cursor: pointer;
+  background-color: #5954fa;
+}

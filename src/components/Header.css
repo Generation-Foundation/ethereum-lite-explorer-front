@@ -1,0 +1,125 @@
+.header {
+    max-width: 1440px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navBar li:hover{
+    background-color: #08082D;
+    border-radius: 10px;
+}
+
+.navBar h1{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+}
+
+.navBar h2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navBar h3{
+    background-color: #08082D;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.navBar_toggle{
+    position: absolute;
+    /* right: 3%;
+    top: 2.5%; */
+    right: 17px;
+    top: 22px;
+    display: none;
+}
+
+.navBar_On{
+    display: none;
+    list-style: none;
+    align-items: center;
+}
+
+@media(max-width:1480px){
+    .header{
+        width: 95%;
+    }
+}
+
+
+@media(max-width:767px){
+    .header{
+        width: 95%;
+    }
+    
+    .header{
+        flex-direction: column;
+    }
+
+    .navBar{
+        flex-direction: column;
+        display: none;
+    }
+
+    .navBar_On{
+        flex-direction: column;
+        display: flex;
+    }
+    
+
+    .navBar_On li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navBar_On li:hover{
+        background-color: #08082D;
+        border-radius: 10px;
+    }
+    
+
+    .navBar_On li h1{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+        color: white;
+        padding: 10px;
+    }
+
+    .navBar_toggle{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .network{
+        background-color: #08082D;
+        padding-top: 2px;
+        margin-right: 10px;
+        border-radius: 10px;
+        align-items: center;
+        width: 40px;
+        height: 20px;
+        text-align: center;
+    }
+}

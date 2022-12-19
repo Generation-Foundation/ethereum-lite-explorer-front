@@ -1,0 +1,256 @@
+.txsAddress {
+  color: blue;
+  cursor: pointer;
+}
+
+.addressTitleContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background-color: #08082d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.addressTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0px 30px 50px;
+}
+
+.addressTitle h1 {
+  font-size: 18px;
+}
+
+.addressDataSection {
+  display: flex;
+}
+
+/* 이부분 className 겹치는거 꼭 수정을 해야할듯 */
+.addressDataInfo1 {
+  margin: 0px 30px 0px 30px;
+  width: 580px;
+  border-radius: 15px;
+  background-color: #1a1347;
+  padding: 10px 20px 10px 20px;
+  overflow: hidden;
+}
+
+.addressDataInfo2 {
+  margin: 0px 30px 0px 15px;
+  width: 580px;
+
+  border-radius: 15px;
+  background-color: #08082d;
+  padding: 10px 20px 10px 20px;
+}
+
+.addressData-row {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: #212121 solid 1px;
+  /* overflow: hidden;  		
+    text-overflow: ellipsis;  
+    white-space: nowrap;  */
+}
+
+.addressData-col1 {
+  margin-right: 50px;
+}
+
+.addressData-col1-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  background-color: #1e1070;
+  border-radius: 5px;
+}
+
+.addressData-col2 {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 15px;
+}
+
+/* ===== 아래쪽 ===== */
+
+.addressDataContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 80%;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  background-color: #08082d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.addressDataContainer table {
+  max-width: 1440px;
+  width: 95%;
+  margin: 0 auto;
+  /* margin: 0px 30px 0px 30px; */
+  /* padding: 10px 20px 10px 20px; */
+  border-radius: 15px;
+  background-color: #1a1347;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.addressDataContainer thead tr {
+  background-color: #292972;
+  /* border-radius: 15px; */
+}
+
+.addressDataContainer th {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+.th-left-top {
+  border-top-left-radius: 15px;
+}
+
+.th-right-top {
+  border-top-right-radius: 15px;
+}
+
+/* .addressDataContainer td{   
+    padding: 15px 15px 15px 15px;;
+    text-align: center;
+    border-bottom: #212121 solid 1px;
+    overflow: hidden;
+    white-space:nowrap;
+} */
+
+.td-left {
+  padding: 15px 15px 15px 15px;
+  text-align: left;
+  border-bottom: #212121 solid 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.td-left-padding {
+  padding-left: 45px;
+  text-align: left;
+  border-bottom: #212121 solid 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.td-center {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  border-bottom: #212121 solid 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.td-right {
+  padding: 15px 30px 15px 15px;
+  text-align: right;
+  border-bottom: #212121 solid 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.addressDataContainer tr:last-child td {
+  border: none;
+}
+
+/* .addressDataContainer tr:first-child td {
+    border: none;
+} */
+
+.addressDataContainer tbody span {
+  color: #5954fa;
+  cursor: pointer;
+}
+
+.addressDataContainer tbody span:hover {
+  color: #7570fa;
+  cursor: pointer;
+}
+
+.bottomPg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0 0 50px;
+}
+
+@media (max-width: 1480px) {
+  .addressTitleContainer {
+    width: 95%;
+  }
+  .addressDataContainer {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .tableBox {
+    overflow: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .addressTitleContainer {
+    width: 95%;
+  }
+
+  .addressDataContainer {
+    width: 95%;
+  }
+
+  .addressTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .bottomPg {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .addressData-row {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 75px;
+    display: block;
+  }
+
+  .addressData-col1-title {
+    margin-top: 10px;
+  }
+
+  .addressData-col2 {
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+}
