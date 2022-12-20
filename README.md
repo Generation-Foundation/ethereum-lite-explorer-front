@@ -1,14 +1,14 @@
-# Explorer-Frontend-test
-explain explorer <br>
-what is explorer
+# GEN-Lite-Explorer-Frontend
 
 ## Description
-frontend server code
+This project is an open-source block explorer on EVM chain. If you follow this repository, you can run explorer in localhost. This repository provides [crawling code](https://github.com/Generation-Foundation/Explorer-Crawling-test) and [backend code](https://github.com/Generation-Foundation/Explorer-Backend-test) for Explorer, and you can find frontend code in this repository.
 
 ## Getting Started
 ### Setting up Server
-- Go to the link below to set up the crawling server and backend server step by step.
+- **Go to the link below to set up server step by step.**
+- First, set up Crawling server and Database
   - <https://github.com/Generation-Foundation/Explorer-Crawling-test>
+- Second, set up Backend server
   - <https://github.com/Generation-Foundation/Explorer-Backend-test>
 
 
@@ -67,16 +67,24 @@ npm run build
 ```
 
 ### Architecture
-**If you are only running on the local host**
-<br>Front - http://localhost:3000
-<br>Back - http://localhost:3001
-<br>Crawling - http://localhost:3006
+**If running only on localhost, it will proceed on the following ports.**
+- Front - http://localhost:3000
+- Back - http://localhost:3001
+- Crawling - http://localhost:3006
 <bt>![Opensource Generation Explorer drawio](https://user-images.githubusercontent.com/93761302/208396226-e82f53c2-db3f-4e81-b665-a451efa90949.png)
 
 
 ## Contributors
-by Danny, Woody
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Booyoun-Kim"><img src="https://avatars.githubusercontent.com/u/34641838?v=4" width="100px;" alt=""/><br /><sub><b>Ben</b></sub></a><br /><a>🧑‍🏫</a> <a>🤔</a> <a>📆</a> <a>💬</a></td>
+    <td align="center"><a href="https://github.com/Jaewoneeee"><img src="https://avatars.githubusercontent.com/u/93761302?v=4" width="100px;" alt=""/><br /><sub><b>Danny</b></sub></a><br /><a>💻</a> <a>🤔</a> <a>🔣</a> <a>📖</a> <a>🚧</a></td> 
+    <td align="center"><a href="https://github.com/hyeok96"><img src="https://avatars.githubusercontent.com/u/86933513?v=4" width="100px;" alt=""/><br /><sub><b>Woody</b></sub></a><br /><a>💻</a> <a>⚠️</a></td>
+  </tr>
+</table>
+  
 ## Our Services and Community
 - [Official Website](https://gen.foundation/)
 - [Generation Explorer](https://dev-explorer.gen.foundation/)
