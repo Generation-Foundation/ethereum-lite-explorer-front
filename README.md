@@ -76,7 +76,7 @@ npm run build
 - Front - http://localhost:3000
 - Back - http://localhost:3001
 - Crawling - http://localhost:3006
-<bt>![Opensource Generation Explorer drawio](https://user-images.githubusercontent.com/93761302/208396226-e82f53c2-db3f-4e81-b665-a451efa90949.png)
+<bt>![Opensource Generation Explorer drawio (1)](https://user-images.githubusercontent.com/93761302/208598512-272dea9f-fd65-41f1-9da1-c425f30ff7b9.png)
 
 
 ## Contributors
