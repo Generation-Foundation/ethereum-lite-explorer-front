@@ -178,7 +178,7 @@ const TransactionPage = () => {
                 </div>
                 <div className="blockData-col2">
                   <RiTimer2Line />
-                  &nbsp;{txTimeago} ({txDbInfo.time_stamp} UTC)
+                  &nbsp;{txTimeago} ({txDbInfo.time_stamp})
                 </div>
               </div>
               <div className="blockData-row">

@@ -93,7 +93,7 @@ const BlockPage = () => {
                   <div className="blockData-col1-title">Timestamp</div>
                 </div>
                 <div className="blockData-col2">
-                  <RiTimer2Line /> &nbsp; {blockTimeago} ({unixTimestamp} UTC)
+                  <RiTimer2Line /> &nbsp; {blockTimeago} ({unixTimestamp})
                 </div>
               </div>
 

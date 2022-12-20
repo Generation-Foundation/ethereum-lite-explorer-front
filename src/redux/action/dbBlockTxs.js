@@ -18,12 +18,12 @@ function dbBlockTxsApi(params) {
             for(let i = 0; i < datas.data.length; i++){
                 console.log(datas.data[i].time_stamp)
                 let date = new Date()
-                let year = date.getUTCFullYear();
-                let month = "0" + (date.getUTCMonth()+1);
-                let day = "0" + date.getUTCDate();
-                let hour = "0" + date.getUTCHours();
-                let minute = "0" + date.getUTCMinutes();
-                let second = "0" + date.getUTCSeconds();
+                let year = date.getFullYear();
+                let month = "0" + (date.getMonth()+1);
+                let day = "0" + date.getDate();
+                let hour = "0" + date.getHours();
+                let minute = "0" + date.getMinutes();
+                let second = "0" + date.getSeconds();
                 let time = year + "-" + month.substr(-2) + "-" + day.substr(-2) + " " + hour.substr(-2) + ":" + minute.substr(-2) + ":" + second.substr(-2);
 
                 let timeago = format(datas.data[i].time_stamp, "en_US", { relativeDate: time });
