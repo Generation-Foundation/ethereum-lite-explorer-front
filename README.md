@@ -92,7 +92,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   
 ## Developed
 Developing by [Generation Foundation](https://github.com/Generation-Foundation)
-
+<br>
+  
+<img width="270" alt="" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e385adbc-8b74-45c6-ab5e-92b1b0510748/Generation_01.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221220%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221220T052307Z&X-Amz-Expires=86400&X-Amz-Signature=5b6d663784a1f7362e75ba4bf831fc01e2ce290660ac88a86e04c744ae9dd9a8&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Generation_01.png%22&x-id=GetObject" />
+  
 ## Our Services and Community
 - [Official Website](https://gen.foundation/)
 - [Generation Explorer](https://dev-explorer.gen.foundation/)
