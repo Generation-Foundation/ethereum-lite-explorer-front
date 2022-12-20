@@ -18,9 +18,17 @@ frontend server code
 ```bash
 git clone https://github.com/Generation-Foundation/Explorer-Frontend-test.git
 ```
-- Create ``.env`` to set GENERATE_SOURCEMAP
+- **On macOS and Ubuntu**, create ``.env`` to set GENERATE_SOURCEMAP
 ```env
 GENERATE_SOURCEMAP=false
+```
+- **On Window**, modify ``package.json`` to set GENERATE_SOURCEMAP
+```javascript
+  "scripts": {
+    "start": ""set \"GENERATE_SOURCEMAP=false\" && node scripts/start.js",
+    "build": ""set \"GENERATE_SOURCEMAP=false\" && node scripts/build.js",
+    "test": "node scripts/test.js"
+  },
 ```
 - Modify 'baseURL' in ``/src/redux/reducer/etherApi.js`` to your blockchain RPC URL
 ```javascript
