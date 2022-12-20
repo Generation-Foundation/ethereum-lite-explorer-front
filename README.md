@@ -1,22 +1,27 @@
-# GEN-Lite-Explorer-Frontend
+# ethereum-lite-explorer-frontend
 
 ## Description
-This project is an open-source block explorer on EVM chain. If you follow this repository, you can run explorer in localhost. This repository provides [crawling code](https://github.com/Generation-Foundation/Explorer-Crawling-test) and [backend code](https://github.com/Generation-Foundation/Explorer-Backend-test) for Explorer, and you can find frontend code in this repository.
+This project is an open-source block explorer on EVM chain. If you follow this repository, you can run explorer in localhost. This repository provides [crawling code](https://github.com/Generation-Foundation/ethereum-lite-explorer-crawling) and [backend code](https://github.com/Generation-Foundation/ethereum-lite-explorer-back) for Explorer, and you can find frontend code in this repository.
+
+## Preview
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/93761302/208592091-dd02cd8d-2962-4362-b070-f4397db626d5.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/93761302/208592404-dc90629a-72e0-4629-8ab0-b624b2c1ed68.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/93761302/208592500-f9ff0923-e5ca-47bc-93f9-dc3aa13f402e.png">
 
 ## Getting Started
 ### Setting up Server
 - **Go to the link below to set up server step by step.**
 - First, set up Crawling server and Database
-  - <https://github.com/Generation-Foundation/Explorer-Crawling-test>
+  - <https://github.com/Generation-Foundation/ethereum-lite-explorer-crawling>
 - Second, set up Backend server
-  - <https://github.com/Generation-Foundation/Explorer-Backend-test>
+  - <https://github.com/Generation-Foundation/ethereum-lite-explorer-back>
 
 
 ### Installing
 **After the above server installation is complete, install the following tasks**
 - Git clone this repo
 ```bash
-git clone https://github.com/Generation-Foundation/Explorer-Frontend-test.git
+git clone https://github.com/Generation-Foundation/ethereum-lite-explorer-front.git
 ```
 - **On macOS and Ubuntu**, create ``.env`` to set GENERATE_SOURCEMAP
 ```env
@@ -85,6 +90,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
 </table>
   
+## Developed
+Developing by [Generation Foundation](https://github.com/Generation-Foundation)
+
 ## Our Services and Community
 - [Official Website](https://gen.foundation/)
 - [Generation Explorer](https://dev-explorer.gen.foundation/)
