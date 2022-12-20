@@ -75,7 +75,7 @@ npm run build
 
 
 ## Contributors
-by Danny
+by Danny, Woody
 
 ## Our Services and Community
 - [Official Website](https://gen.foundation/)
